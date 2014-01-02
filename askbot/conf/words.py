@@ -19,7 +19,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASK_YOUR_QUESTION',
-        default=_('Ask Your Question'),
+        default=_('Exchange Your Book'),
         description=_('Ask Your Question'),
         help_text=_('Used on a button')
     )
@@ -29,7 +29,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_PLEASE_ENTER_YOUR_QUESTION',
-        default=_('Please enter your question'),
+        default=_('Please publish your book here'),
         description=_('Please enter your question'),
     )
 )
@@ -58,7 +58,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ANSWER_YOUR_OWN_QUESTION',
-        default=_('Answer Your Own Question'),
+        default=_('Answer Your Own Thread'),
         description=_('Answer Your Own Question'),
         help_text=_('Used on a button')
     )
@@ -69,9 +69,9 @@ settings.register(
         WORDS,
         'WORDS_INSTRUCTION_TO_ANSWER_OWN_QUESTION',
         default=_(
-            '<span class="big strong">You are welcome to answer your own question</span>, '
+            '<span class="big strong">You are welcome to answer your own thread</span>, '
             'but please make sure to give an <strong>answer</strong>. '
-            'Remember that you can always <strong>revise your original question</strong>.'
+            'Remember that you can always <strong>revise your original thread</strong>.'
         ),
         description=_('Instruction to answer own questions'),
         help_text=_('HTML is allowed')
@@ -434,7 +434,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_SHOW_ONLY_QUESTIONS_FROM',
-        default=_('Show only questions from'),
+        default=_('Show only threads from'),
         description=_('Show only questions from'),
     )
 )
@@ -443,7 +443,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_PLEASE_ASK_YOUR_QUESTION_HERE',
-        default=_('Please ask your question here'),
+        default=_('Please publish your book here'),
         description=_('Please ask your question here'),
     )
 )
@@ -482,7 +482,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_ASK_A_QUESTION_INTERESTING_TO_THIS_COMMUNITY',
-        default=_('ask a question interesting to this community'),
+        default=_('publish the book you want to exchange to this community'),
         description=_('ask a question interesting to this community'),
     )
 )
@@ -491,7 +491,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_NO_QUESTIONS_HERE',
-        default=_('No questions here.'),
+        default=_('No threads here.'),
         description=_('No questions here.'),
     )
 )
@@ -500,7 +500,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_PLEASE_FOLLOW_QUESTIONS',
-        default=_('Please follow some questions or follow some users.'),
+        default=_('Please follow some threads or follow some users.'),
         description=_('Please follow some questions or follow some users.'),
     )
 )
@@ -509,7 +509,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_PLEASE_FEEL_FREE_TO_ASK_YOUR_QUESTION',
-        default=_('Please feel free to ask your question!'),
+        default=_('Please feel free to exchange your book!'),
         description=_('Please feel free to ask your question!'),
     )
 )
@@ -644,7 +644,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_QUESTION_TOOLS',
-        default=_('Question Tools'),
+        default=_('Thread Tools'),
         description=_('Question Tools'),
     )
 )
@@ -662,7 +662,7 @@ settings.register(
     values.StringValue(
         WORDS,
         'WORDS_BE_THE_FIRST_TO_ANSWER_THIS_QUESTION',
-        default=_('Be the first one to answer this question!'),
+        default=_('Be the first one to answer this thread!'),
         description=_('Be the first one to answer this question!'),
     )
 )
