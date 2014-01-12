@@ -1,5 +1,5 @@
 ===================
-Install
+Installation
 ===================
 
 1. Install Python2 && Django
